@@ -4,7 +4,20 @@
   "title": "Govseer",
   "description": "Product compliance checks: EU CLP labels, green claims, Amazon claims, CPSC labs and HTS, US DOT",
   "websiteUrl": "https://govseer.com/docs/mcp",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/govseer/govseer-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://govseer.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
