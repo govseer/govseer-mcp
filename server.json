@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.govseer/compliance",
+  "title": "Govseer",
+  "description": "Product compliance checks: EU CLP labels, green claims, Amazon claims, CPSC labs and HTS, US DOT",
+  "websiteUrl": "https://govseer.com/docs/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp"
+    }
+  ]
+}
