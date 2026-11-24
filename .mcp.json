@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "govseer": {
+      "type": "http",
+      "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp"
+    }
+  }
+}
