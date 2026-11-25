@@ -10,7 +10,9 @@ This repository holds no code: the server is a hosted service. It is here for MC
 https://govseer-api-823928849037.europe-west1.run.app/mcp
 ```
 
-Streamable HTTP. Listed on the official MCP Registry as `com.govseer/compliance`.
+Streamable HTTP. Listed on the official MCP Registry as `com.govseer/compliance`, and on Glama:
+
+[![Govseer MCP connector](https://glama.ai/mcp/connectors/com.govseer/compliance/badges/score.svg)](https://glama.ai/mcp/connectors/com.govseer/compliance)
 
 **Claude Code**
 
