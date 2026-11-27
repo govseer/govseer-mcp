@@ -34,7 +34,7 @@ transport, which this server does not offer.
 The server should list eight tools. Ask, for example:
 
 - "Use govseer to check this EU label: Danger, GHS05, H318, P280, P305+P351+P338, P310."
-  → `check_clp_label` lists what is missing (supplier details, nominal quantity, "Contains"
+  → `check_clp_label` lists what is missing (supplier name, address and contact, "Contains"
   line), each with its CLP article.
 - "What is the CPSC eFiling flag for HTS 9503.00.0073?" → `cpsc_hts_flag` returns CP2, Toys.
 
