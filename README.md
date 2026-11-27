@@ -30,12 +30,12 @@ claude mcp add --transport http govseer https://govseer-api-823928849037.europe-
 }
 ```
 
-**Cline** (MCP Servers → Remote Servers, or `cline_mcp_settings.json`)
+**Cline** (MCP Servers → Configure → Configure MCP Servers, `cline_mcp_settings.json`; step by step in [llms-install.md](llms-install.md))
 
 ```json
 {
   "mcpServers": {
-    "govseer": { "type": "streamableHttp", "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp" }
+    "govseer": { "type": "streamableHttp", "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp", "disabled": false, "autoApprove": [] }
   }
 }
 ```
