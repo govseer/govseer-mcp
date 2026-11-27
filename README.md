@@ -10,7 +10,7 @@ This repository holds no code: the server is a hosted service. It is here for MC
 https://govseer-api-823928849037.europe-west1.run.app/mcp
 ```
 
-Streamable HTTP. Listed on the official MCP Registry as `com.govseer/compliance`, and on Glama:
+Streamable HTTP. Listed in the [Claude connectors directory](https://claude.ai/directory/govseer), on the official MCP Registry as `com.govseer/compliance`, and on Glama:
 
 [![Govseer MCP connector](https://glama.ai/mcp/connectors/com.govseer/compliance/badges/score.svg)](https://glama.ai/mcp/connectors/com.govseer/compliance)
 
@@ -26,6 +26,16 @@ claude mcp add --transport http govseer https://govseer-api-823928849037.europe-
 {
   "servers": {
     "govseer": { "type": "http", "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp" }
+  }
+}
+```
+
+**Cline** (MCP Servers → Remote Servers, or `cline_mcp_settings.json`)
+
+```json
+{
+  "mcpServers": {
+    "govseer": { "type": "streamableHttp", "url": "https://govseer-api-823928849037.europe-west1.run.app/mcp" }
   }
 }
 ```
